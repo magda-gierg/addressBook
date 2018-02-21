@@ -14,6 +14,7 @@ export default function (props) {
   var city = props.match.params.city
   return (
     <div>
+      <h2>Addresses in {city}</h2>
 <ul>
 {showAddresses(city)}
 </ul>
